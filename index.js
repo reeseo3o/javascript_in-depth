@@ -1,4 +1,4 @@
-const js = require("fs");
+const fs = require("fs");
 fs.mkdirSync("dist");
 fs.writeFileSync(
   "dist/index.html",
